@@ -11,8 +11,8 @@ This repository is the official PyTorch code for the paper: Dual-Field Microvasc
 
 Download our repo:
 ```
-git clone https://github.com/699zjl/DFMS-Net-main.git
-cd DFMS-Net-main
+git clone https://github.com/699zjl/DFMS-Net-new.git
+cd DFMS-Net-new
 ```
 Install packages from requirements.txt
 ```
