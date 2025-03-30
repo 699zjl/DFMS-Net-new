@@ -1,0 +1,32 @@
+model:
+  type: DFMS_Net
+  args:
+    {}
+
+loss:
+  type: BCELoss
+  args:
+    {}
+
+optimizer:
+  type: Adam
+  args:
+    lr: 1e-4
+    weight_decay: 1e-5
+
+lr_scheduler:
+  type: CosineAnnealingLR
+  args:
+    T_max: 66
+
+epochs: 66
+save_dir: saved/
+val_per_epochs: 5
+save_period: 2
+tensorboard: true
+threshold: 0.5
+threshold_low: 0.35
+DTI: true
+amp: false
+tta: false
+CCC: false
